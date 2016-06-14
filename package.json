@@ -1,0 +1,22 @@
+{
+  "name": "bessie",
+  "version": "1.0.0",
+  "description": "Automatically log your hours for the terrible CalTime system.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node bessie.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcparashar/bessie.git"
+  },
+  "author": "Krishna Parashar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kcparashar/bessie/issues"
+  },
+  "homepage": "https://github.com/kcparashar/bessie#readme",
+  "dependencies": {
+    "nightmare": "^2.5.1"
+  }
+}

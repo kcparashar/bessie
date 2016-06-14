@@ -1,0 +1,10 @@
+{
+  "credentials": {
+    "username": "<USERNAME>",
+    "password": "<PASSWORD>"
+  },
+  "urls": {
+    "login_portal": "https://caltimeprod.berkeley.edu",
+    "timestamp_app": "https://caltimeprod.berkeley.edu/wfc/applications/wtk/html/ess/timestamp.jsp"
+  }
+}
