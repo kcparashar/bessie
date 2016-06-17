@@ -14,8 +14,9 @@
 2. Navigate to the directory you prefer to have the files in with `cd`. For example `cd ~/Documents/Projects/`.
 3. Clone this repo with `git clone https://github.com/kcparashar/bessie.git`
 4. Go into directory with `cd bessie/`.
-5. (a) Install node packages with `npm install`.
-5. (b) (*upon first use*) Open the `config.json` with your favorite text editor. For example `nano config.json`. Replace the `<USERNAME>` and `<PASSWORD>` with your actual credentials. 
+5. 
+  - (a) Install node packages with `npm install`.
+  - (b) (*upon first use*) Open the `config.json` with your favorite text editor. For example `nano config.json`. Then replace the `<USERNAME>` and `<PASSWORD>` with your actual credentials. 
 6. Run the app with `npm start` or `node bessie.js`.
 
 
@@ -37,3 +38,5 @@ Then enter in the options from below or make your own custom one with _.
 
 
 That’s it! Enjoy your automatic hours entry. 
+
+Please feel free [to contribute](https://github.com/kcparashar/bessie/pulls), [add an issue](https://github.com/kcparashar/bessie/issues), or [email me](mailto:kcparashar+bessie@gmail.com).
