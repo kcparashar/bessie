@@ -1,7 +1,9 @@
 # Bessie
 
+## What is this?
+[CalTime](caltimeprod.berkeley.edu) is an unfortunetly complicated system to enter your hourly log as a UC Berkeley employee. To help alleviate this cognitive annoyance, this script is a way to automate logging in and out. Please feel free to contribute and port to your liking. Please raise an [issue](https://github.com/kcparashar/bessie/issues/new) and I'll try to get back to you ask quick as I can. 
 
-
+---
 ## How To Use
 ### Dependencies
 - `node.js`
@@ -20,8 +22,8 @@
   - (b) (*upon first use*) Open the `config.json` with your favorite text editor. For example `nano config.json`. Then replace the `<USERNAME>` and `<PASSWORD>` with your actual credentials. 
 6. Run the app with `npm start` or `node bessie.js`.
 
-
-### Automatic Hours with `cron`
+---
+### Automatic Hours with `cron` (Optional)
 If you prefer to save your self the hassle of running this script, you can choose to automate it with `cron` a UNIX utliity that lets you run background task on schedule. 
 
 This is best paired with a server, for which I recommend [DigitalOcean](https://m.do.co/c/3ad22fa86c99) (referral link with $10 credit). 
@@ -36,7 +38,7 @@ Then enter in the options from below or write a custom entry.
 #### 20 Hour Work Week
 `cron 00 09,13 * * 1-5 node bessie.js`
 
-
+---
 That’s it! Enjoy your automatic hours entry. 
 
-Please feel free [to contribute](https://github.com/kcparashar/bessie/pulls), [add an issue](https://github.com/kcparashar/bessie/issues), or [email me](mailto:kcparashar+bessie@gmail.com).
+Please feel free [to contribute](https://github.com/kcparashar/bessie/pulls), [add an issue](https://github.com/kcparashar/bessie/issues/new), or [email me](mailto:kcparashar+bessie@gmail.com).
