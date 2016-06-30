@@ -5,7 +5,8 @@
 ## How To Use
 ### Dependencies
 - `node.js`
-- `cron`
+- `phantom.js`
+- `cron` (Optional)
 
 
 ### Step-by-Step
@@ -21,14 +22,13 @@
 
 
 ### Automatic Hours with `cron`
-If you prefer to save your self the hassle of running this script, you can choose to automate it with `cron` a ____ that lets you run background task on schedule. 
+If you prefer to save your self the hassle of running this script, you can choose to automate it with `cron` a UNIX utliity that lets you run background task on schedule. 
 
 This is best paired with a server, for which I recommend [DigitalOcean](https://m.do.co/c/3ad22fa86c99) (referral link with $10 credit). 
 
-To use `cron` you must first open a *crontab* with ___. 
+To use `cron` you must first open a *crontab*. [Corenominal](https://corenominal.org/2016/05/12/howto-setup-a-crontab-file/) provides a useful guide. 
 
-Then enter in the options from below or make your own custom one with _. 
-
+Then enter in the options from below or write a custom entry. 
 
 #### 40 Hour Work Week
 `cron 00 09,17 * * 1-5 node bessie.js`
