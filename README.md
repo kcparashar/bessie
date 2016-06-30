@@ -1,7 +1,7 @@
 # Bessie
 
 ## What is this?
-[CalTime](caltimeprod.berkeley.edu) is an unfortunetly complicated system to enter your hourly log as a UC Berkeley employee. To help alleviate this cognitive annoyance, this script is a way to automate logging in and out. Please feel free to contribute and port to your liking. Please raise an [issue](https://github.com/kcparashar/bessie/issues/new) and I'll try to get back to you ask quick as I can. 
+[CalTime](caltimeprod.berkeley.edu) is an unfortunetly complicated system to enter your hourly log as a UC Berkeley employee. To help alleviate this cognitive annoyance, this script is a way to automate logging in and out. Feel free to contribute and port to your liking. Raise an [issue](https://github.com/kcparashar/bessie/issues/new) and I'll try to get back to you ask quick as I can!
 
 ---
 ## How To Use
