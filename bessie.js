@@ -1,6 +1,6 @@
 var Nightmare = require('nightmare');
 var config    = require('./config.json');
-var nightmare = Nightmare()
+var nightmare = Nightmare({show: true})
 
 nightmare
   .goto(config.urls.login_portal)
