@@ -1,6 +1,7 @@
 var Nightmare = require('nightmare');
 var config    = require('./config.json');
-var nightmare = Nightmare({show: true})
+var nightmare = Nightmare()
+// var nightmare = Nightmare({show: true}) // Uncomment for Visual Mode
 
 nightmare
   .goto(config.urls.login_portal)
