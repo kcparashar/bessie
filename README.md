@@ -39,6 +39,13 @@ Then enter in the options from below or write a custom entry.
 `cron 00 09,13 * * 1-5 node bessie.js`
 
 ---
+### FAQ
+
+**Q.** This doesn't seem to be working on my Linux Server! Help?
+**A.** Try [this fix](https://github.com/segmentio/nightmare/issues/224#issuecomment-141575361).
+
+
+---
 That’s it! Enjoy your automatic hours entry. 
 
 Please feel free [to contribute](https://github.com/kcparashar/bessie/pulls), [add an issue](https://github.com/kcparashar/bessie/issues/new), or [email me](mailto:kcparashar+bessie@gmail.com).
