@@ -33,16 +33,16 @@ To use `cron` you must first open a *crontab*. [Corenominal](https://corenominal
 Then enter in the options from below or write a custom entry. 
 
 #### 40 Hour Work Week
-`cron 00 09,17 * * 1-5 node bessie.js`
+`00 09,17 * * 1-5 node ~/<PATHTO>/bessie.js`
 
 #### 30 Hour Work Week
-`cron 00 09,15 * * 1-5 node bessie.js`
+`00 09,15 * * 1-5 node ~/<PATHTO>/bessie.js`
 
 #### 20 Hour Work Week
-`cron 00 09,13 * * 1-5 node bessie.js`
+`00 09,13 * * 1-5 node ~/<PATHTO>/bessie.js`
 
 #### 10 Hour Work Week
-`cron 00 09,11 * * 1-5 node bessie.js`
+`00 09,11 * * 1-5 node ~/<PATHTO>/bessie.js`
 
 ---
 ### FAQ
